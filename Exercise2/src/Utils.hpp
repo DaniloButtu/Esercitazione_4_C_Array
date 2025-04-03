@@ -29,12 +29,7 @@ double final_value(const double& S, const size_t n, const double* const& w, cons
 
 /* export_data: write the results of the whole process in a file
 ofile_path: path of the output file
-S: total investment
-n: number of assets
-w: vector that contains the fractions of S that we invest in the i-th assets
-r: vector that contains the rates of return related to the i-th asset
-R: total rate of return
-V: final value of wallet */
+out_str: the whole output string make with the function summarize_result */
 bool export_data(const string& ofile_path, const string& out_str);
 
 
